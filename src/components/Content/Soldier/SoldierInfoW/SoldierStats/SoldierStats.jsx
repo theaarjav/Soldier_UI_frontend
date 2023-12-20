@@ -17,12 +17,12 @@ export const SoldierStats = () => {
     const [m9Hover, setm9Hover] = useState(false);
     const [stat, setstat] = useState([])
     const getStat=async ()=>{
-        const {data, status}=await axios.get("http://localhost:5000/api/stats/1");
+        const {data, status}=await axios.get("https://fog-ui-frontend.onrender.com/api/stats/1");
         if(status===200){
-            console.log(200, stat);
+            // console.log(200, stat);
             setstat(data.stat);
         }
-        console.log(stat);
+        // console.log(stat);
     }
     useEffect(() => {
       getStat()

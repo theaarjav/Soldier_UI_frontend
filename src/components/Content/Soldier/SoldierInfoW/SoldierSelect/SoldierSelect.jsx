@@ -5,12 +5,12 @@ export const SoldierSelect = () => {
 
     const [select, setSelect] = useState([])
     const getSelect=async ()=>{
-        const {data, status}=await axios.get("http://localhost:5000/api/select/1");
+        const {data, status}=await axios.get("https://fog-ui-frontend.onrender.com/api/select/1");
         if(status===200){
-            console.log(200, select);
+            // console.log(200, select);
             setSelect(data.select);
         }
-        console.log(select);
+        // console.log(select);
     }
     useEffect(() => {
       getSelect()

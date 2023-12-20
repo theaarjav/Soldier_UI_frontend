@@ -5,16 +5,16 @@ import LevelImage from './home__level-icon.png'
 export const SoldierLevel = () => {
   const [user, setUser] = useState([])
     const getUser=async ()=>{
-        const {data, status}=await axios.get("http://localhost:5000/api/user/1");
+        const {data, status}=await axios.get("https://fog-ui-frontend.onrender.com/api/user/1");
         if(status===200){
-            console.log(200, user);
+            // console.log(200, user);
             setUser(data.user);
         }
-        console.log(user);
+        // console.log(user);
     }
     useEffect(() => {
       getUser()
-    
+  
     }, [])
   return (
     <div className='soldier-level-info'>
