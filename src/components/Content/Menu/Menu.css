@@ -1,0 +1,117 @@
+.menu{
+    display: flex;  
+    align-items: flex-start;
+    position: relative;
+}
+
+
+.home-menu{
+    display: flex;
+    position: relative;
+    margin-right: 0.8vw;
+    opacity: 0.8;
+}
+
+
+.menu-text{
+    position: relative;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25vh;
+    bottom: 0px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.menu-text:hover{
+    text-shadow: 0 0 3px #FFFFFF;
+}
+
+.soldier-text{
+    position: relative;
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.25vh;
+    bottom: 0px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.soldier-text:hover{
+    text-shadow: 0 0 3px #FFFFFF;
+}
+
+.multiplayer-menu{
+
+    position: relative;
+    margin-right: 0.8vw;
+    opacity: 0.8;
+}
+
+.campaign-menu{
+    position: relative;
+    margin-right: 0.8vw;
+    opacity: 0.8;
+}
+
+
+
+
+.soldier-menu-menu{
+    position: relative;
+    margin-right: 0.8vw ;
+}
+
+.soldier-line{
+    position: relative;
+    top:0vh;   
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+.store-menu{
+    position: relative;
+    margin-right: 0.8vw;
+    opacity: 0.8;
+}
+
+
+
+.more-menu{    
+    position: relative;
+    opacity: 0.8;
+}
+
+.menu-item-line{
+    position: relative;
+    top:0vh;   
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    visibility: hidden;
+}
+
+.menu-bar {
+    z-index: 1;
+    width: 50vw;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .15) 73%, rgba(255, 255, 255, 0));
+    position: absolute;
+    top: 1.5vh;
+}
+
+
+@media (max-width:700px) {
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu-bar{
+        top:9.5vh;
+        width: 70vw;
+    }
+}

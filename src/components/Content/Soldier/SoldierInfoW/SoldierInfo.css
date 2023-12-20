@@ -1,0 +1,9 @@
+.soldier-details-box{
+    display:flex;
+}
+
+@media (max-width:500px) {
+    .soldier-details-box{
+        flex-direction: column;
+    }
+}

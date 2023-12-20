@@ -1,0 +1,207 @@
+.invite{
+    z-index: 9995;
+    width: 27vh;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 2vh;
+    padding-left: 1.5vh;
+    display: flex;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+    transition: 0.5s ease-in-out;
+    transform: translate(19vh);
+}
+
+.invite:hover{
+    transition: 0.5s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translate3d(0vh, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+.invite-line{
+    height: 1px;
+    /* width: 10vh; */
+    /* opacity: 0; */
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.invite-line:hover{
+    opacity: 1;
+}
+.invite-squad{
+    margin-left: 2vh;
+    margin-top: 0.6vh;
+    margin-bottom: 0.7vh;
+}
+.squad-icon{
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.5vh;
+    display: flex;
+}
+.invite-squad-icon{
+    height: 1.1vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0.1vh;
+}
+
+.invite-squad-text{
+    /* opacity: 0; */
+    display: flex;
+    align-items: center;
+    letter-spacing: .08vh;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.1vh;
+    font-weight: 600;
+    color: #fff;
+    /* line-height: 1.8vh; */
+}
+
+.invite-join{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    color: #fff;
+    transition: 100ms ease-in-out;
+}
+.invite-join:hover{
+    background-color: #fff;
+    color: rgba(16, 16, 16);   
+}
+
+.invite-join-icon {
+    height: 3.5vh;
+    margin-right: 1vh;
+}
+
+.invite-join-icon-active {
+    z-index: 2;
+    margin-left: -1px;
+    display: none;
+    position: absolute;
+}
+
+.invite-join-squad-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .08vh;
+    text-transform: capitalize;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.2vh;
+    font-weight: 600;
+    
+    transition: 0.3s ease-in-out;
+    /* line-height: 1.6vh; */
+}
+
+.online-icon{
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0.5vh;
+    display: flex;
+}
+
+.invite-online{
+    margin-top: 0.6vh;
+    margin-left: 2vh;
+    margin-bottom: 0.7vh;
+}
+
+.invite-online-icon{
+    height: 1.1vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 0.1vh;
+}
+.invite-online-friend{
+    background-color: rgba(0, 0, 0, 0);
+    padding-bottom: 0px;
+    display: flex;
+    color: #fff;
+    transition: 100ms ease-in;
+}
+.invite-online-friend:hover{
+    background-color: #fff;
+    color: rgba(16, 16, 16);
+}
+.online-friend-line{
+    width: 1.5px;
+    height: 3.5vh;
+    background-color: #23c13a;
+    margin-right: 0.2vh;
+}
+.invite-online-friend-icon{
+    height: 3.7vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0px;
+}
+.offline-friend-line{
+    width: 1.2px;
+    height: 3.5vh;
+    background-color: #fff;
+    margin-right: 0.2vh;
+}
+.invite-online-text{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    letter-spacing: .08vh;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.1vh;
+    font-weight: 600;
+    /* line-height: 1.8vh; */
+}
+
+.invite-online-friend-info{
+    height: 2.6vh;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1vh;
+    display: flex;
+}
+
+.invite-offline-friend{
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    color: #fff;
+    transition: 100ms ease-in;
+    opacity: 0.4;
+}
+.invite-offline-friend:hover{
+    opacity: 1;
+    background-color: #fff;
+    color: rgba(16, 16, 16);
+}
+.invite-friend-name{
+    /* background-color: rgba(0, 0, 0, 0); */
+    letter-spacing: .08vh;
+    text-transform: capitalize;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1vh;
+    font-weight: 600;
+    /* line-height: 1.6vh; */
+}
+
+.invite-friend-status{
+    /* color: rgba(255, 255, 255, .7);
+     */
+    /* background-color: rgba(0, 0, 0, 0); */
+    opacity: 0.7;
+    letter-spacing: .08vh;
+    text-transform: capitalize;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1vh;
+    font-weight: 600;
+}

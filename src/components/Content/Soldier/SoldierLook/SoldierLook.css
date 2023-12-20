@@ -1,0 +1,34 @@
+.soldier-look{
+    width: 33vh;
+    flex: none;
+    position: relative;
+    top: -4vh;
+    zoom: 125%;
+}
+
+
+.soldier-pic{
+    width: 33vh;
+    position: relative;
+    left: 4vh;
+}
+.soldier-tags{
+    width: 100%;
+    position: absolute;
+    bottom: 10vh;
+}
+.premium-dog-tag{
+    
+    z-index: 2;
+    position: relative;
+    max-width: 80%;
+}
+
+.bf4-celeb-tag{
+    top:2vh;
+    z-index: 1;
+    max-width: 80%;
+    position: relative;
+    display: block;
+    left: -88px;
+}

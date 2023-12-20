@@ -1,0 +1,50 @@
+.level-wrapper {
+    height: 2.5vh;
+    z-index: 3;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: -1vh;
+    bottom: auto;
+    left: auto;
+    right: -3vh;
+}
+
+.level-meter {
+    width: 4vh;
+    height: 4vh;
+    border: 1.5px solid #ee930e;
+    border-style: solid solid none none;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    
+}
+
+.total-level{
+    top: -1vh;
+    bottom: auto;
+    left: auto;
+    right: 11vh;
+    width: 4vh;
+    height: 4vh;
+    border: 2px solid rgba(255, 255, 255, .1);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+.logo-img{
+    height: 2vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.level-img{
+    width: 3.5vh;
+    height: 5.5vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

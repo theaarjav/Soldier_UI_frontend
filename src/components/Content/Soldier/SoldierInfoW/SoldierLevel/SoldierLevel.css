@@ -1,0 +1,89 @@
+.soldier-level-info{
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3vh;
+    display: flex;
+}
+
+.soldier-level {
+    width: 10vh;
+    height: 10vh;
+    border: 2px solid rgba(255, 255, 255, .1);
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vh;
+    display: flex;
+    position: relative;
+}
+
+.soldier-level-bar {
+    width: 10vh;
+    height: 10vh;
+    border: 2px solid #ee930e;
+    border-style: solid solid none none;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px;
+    margin-left: -1px;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.soldier-level-icon {
+    width: 9vh;
+    height: 9vh;
+}
+
+.soldier-level-info-h {
+    color: #fff;
+    margin-bottom: 2vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 3.1vh;
+    font-weight: 700;
+    line-height: 4vh;
+}
+
+.soldier-level-stats {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.soldier-level-no {
+    width: 8vh;
+    border: 1px solid rgba(255, 255, 255, .3);
+    margin-right: 1.8vh;
+}
+
+.soldier-level-text {
+    color: #fff;
+    text-align: center;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.7vh;
+    font-weight: 500;
+    line-height: 2vh;
+}
+
+.soldier-level-current {
+    color: #fff;
+    margin-right: 0.5vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.7vh;
+    font-weight: 500;
+    line-height: 1.8vh;
+}
+
+.soldier-level-estimate {
+    color: rgba(255, 255, 255, .5);
+    margin-right: 0.5vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.7vh;
+    font-weight: 500;
+    line-height: 1.8vh;
+}
+

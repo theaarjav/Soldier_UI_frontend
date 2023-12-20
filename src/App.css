@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.window{
+
+position: absolute;
+width: 100vw;
+height: 100vh;
+
+
+background: #000C13;
+opacity: 0.6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background-img{
+  /* menu__background */
+
+position: absolute;
+width: 100vw;
+height: 100vh;
+left:-34.7vw;
+top:-34.7vh;
+zoom: 153%;
+background: url("https://uploads-ssl.webflow.com/6013fff62154adaa4600f932/6038f70ef0141a2f22d50f58_menu__background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+/* filter: blur(10px); */
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width:900px) {
+  .window{
+    width: 150vw;
+    height: 200vh;
+  }
+  .background-img{
+    width: 150vw;
+    height: 200vh;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.watermark {
+  position: absolute;
+  width: 350px;
+  height: 600px;
+  zoom: 50%;
+  right: 350px;
+  top: 150px;
+  background: url("../images/soldier__BFemblem.png");
+  background-repeat: no-repeat;
+  background-size: contain; /* or adjust as needed */
+  mix-blend-mode: screen;
+  opacity: 1;
+}
+
+
+.content{
+  width: 65.3vw;
+  background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  position: relative;
+  top:34.7vh;
+  left: 34.7vw;
 }
